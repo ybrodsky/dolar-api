@@ -1,0 +1,6 @@
+FROM mysql:5.7
+
+ADD docker/database.sql /docker-entrypoint-initdb.d
+
+# build: docker build -f Dockerfile.db -t db_gdc .
+# run:   docker run -e MYSQL_ROOT_PASSWORD=qtc MYSQL_DATABASE=sequelize -p 3306:3306 db_gdc

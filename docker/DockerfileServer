@@ -1,0 +1,12 @@
+FROM node:6.10.2
+
+RUN npm install nodemon -g
+
+RUN mkdir /dolar
+
+WORKDIR /dolar
+ADD package.json /dolar/package.json
+
+EXPOSE 3033
+
+CMD nodemon index.js -L

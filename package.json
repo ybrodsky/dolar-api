@@ -1,0 +1,25 @@
+{
+  "name": "dolar-api",
+  "version": "1.0.0",
+  "description": "Api para la cotizacion del dolar historico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker": "docker-compose -f docker/docker-compose.yml up"
+  },
+  "keywords": [
+    "gdo"
+  ],
+  "author": "Yael \"Jesus Jr.\" Brodsky",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.26.1",
+    "cron": "^1.2.1",
+    "dolar-blue": "^0.2.1",
+    "express": "^4.15.3",
+    "mysql2": "^1.3.5",
+    "request": "^2.81.0",
+    "sequelize": "^4.2.1",
+    "underscore": "^1.8.3"
+  }
+}
