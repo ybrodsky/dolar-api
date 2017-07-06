@@ -19,7 +19,7 @@ services:
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: "Cerrito844"
     ports:
-      - "4001:80"
+      - "3034:80"
   dolar_server:
     depends_on:
       - dolar_database

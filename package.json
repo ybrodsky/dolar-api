@@ -18,6 +18,7 @@
     "dolar-blue": "^0.2.1",
     "express": "^4.15.3",
     "mysql2": "^1.3.5",
+    "node-bluelytics": "^1.0.0",
     "request": "^2.81.0",
     "sequelize": "^4.2.1",
     "underscore": "^1.8.3"
