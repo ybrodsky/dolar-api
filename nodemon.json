@@ -13,6 +13,7 @@
   },
   "watch": [
     "models/*",
+    "views/*",
     "config/*",
     "lib/*",
     "index.js"

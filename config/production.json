@@ -1,0 +1,13 @@
+{
+	"dbConfig": {
+		"username": "root",
+    "password": "Cerrito844",
+    "database": "dolar_api",
+    "host": "dolar_database",
+    "dialect": "mysql",
+    "define": {
+      "charset": "utf8",
+      "collate": "utf8_general_ci"
+    }
+	}
+}
