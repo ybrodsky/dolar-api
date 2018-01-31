@@ -12,5 +12,6 @@
 	},
 	"server": {
 		"port": 3033
-	}
+	},
+  "slackApiKey": "xoxb-307697772370-PclrcEKW1EoR2gJW9yROq3DU"
 }

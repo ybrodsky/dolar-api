@@ -9,5 +9,6 @@
       "charset": "utf8",
       "collate": "utf8_general_ci"
     }
-	}
+	},
+  "slackApiKey": "xoxb-307697772370-PclrcEKW1EoR2gJW9yROq3DU"
 }
