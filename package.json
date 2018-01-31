@@ -13,17 +13,17 @@
   "author": "Yael \"Jesus Jr.\" Brodsky",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "config": "^1.26.1",
     "cron": "^1.2.1",
     "dolar-blue": "^0.2.1",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
+    "lodash": "^4.17.4",
     "mysql2": "^1.3.5",
     "node-bluelytics": "^1.0.0",
-    "request": "^2.81.0",
+    "request": "^2.83.0",
     "sequelize": "^4.2.1",
-    "underscore": "^1.8.3",
-    "cheerio": "^1.0.0-rc.2",
-    "lodash": "^4.17.4"
+    "underscore": "^1.8.3"
   }
 }
